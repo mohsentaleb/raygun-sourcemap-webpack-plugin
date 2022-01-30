@@ -1,5 +1,7 @@
 # Raygun Sourcemap Plugin For Webpack
 
+<img src="https://raygun.com/documentation/navigation/logo.svg" alt="Raygun" width="300"/>
+
 This is a [Webpack](https://webpack.github.io) plugin that simplifies uploading the sourcemaps,
 generated from a webpack build, to [Raygun](https://raygun.com/).
 
