@@ -96,11 +96,6 @@ output: {
 - See the [Raygun Sourcemaps](https://raygun.com/documentation/product-guides/crash-reporting/sourcemaps/) documentation
   for how to configure the client side for sourcemap support.
 
-## Examples
-
-- [React](https://github.com/mohsentaleb/raygun-sourcemap-webpack-plugin/tree/master/examples/react)
-- [Next.js](https://github.com/mohsentaleb/raygun-sourcemap-webpack-plugin/tree/master/examples/next-js)
-
 ## Contributing
 
 See the [Contributors Guide](/CONTRIBUTING.md)
