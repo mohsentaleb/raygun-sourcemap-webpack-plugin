@@ -86,7 +86,7 @@ Raygun would not be able to download the sourcemaps.
 
 ### webpack.config.js
 
-```json
+```
 output: {
   devtool: 'hidden-source-map'
 }
