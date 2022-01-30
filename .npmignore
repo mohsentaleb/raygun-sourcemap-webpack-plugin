@@ -1,0 +1,8 @@
+.*rc
+.eslintignore
+test
+examples
+docs
+tmp
+coverage
+.nyc_output
