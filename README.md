@@ -1,6 +1,17 @@
 # Raygun Sourcemap Plugin For Webpack
 
+
 <img src="https://raygun.com/documentation/navigation/logo.svg" alt="Raygun" width="300"/>
+
+<a href="https://github.com/microsoft/react-native-macos/blob/master/LICENSE">
+    <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="React Native for macOS is released under the MIT license." />
+  </a>
+<a href="https://www.npmjs.com/package/raygun-sourcemap-webpack-plugin">
+    <img src="https://img.shields.io/npm/dm/raygun-sourcemap-webpack-plugin.svg?style=flat-square" alt="Downloads" />
+</a>
+<a href="https://github.com/mohsentaleb/raygun-sourcemap-webpack-plugin/blob/HEAD/CONTRIBUTING.md">
+    <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs welcome!" />
+</a>
 
 This is a [Webpack](https://webpack.github.io) plugin that simplifies uploading the sourcemaps,
 generated from a webpack build, to [Raygun](https://raygun.com/).
@@ -8,7 +19,18 @@ generated from a webpack build, to [Raygun](https://raygun.com/).
 The heavy lifting for this plugin has been done by the talented contributors of [RollbarSourceMapPlugin](https://github.com/thredup/rollbar-sourcemap-webpack-plugin). This is just a customized and tested version for Raygun.
 
 ----
-## Introducntion
+
+- [Introduction](#introduction)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Basic Usage](#basic-usage)
+- [Plugin Configuration](#plugin-configuration)
+- [Webpack Sourcemap Configuration](#webpack-sourcemap-configuration)
+- [App Configuration](#app-configuration)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Introduction
 Production JavaScript bundles are typically minified before deploying,
 making Raygun stacktraces pretty useless unless you take steps to upload the sourcemaps.
 You may be doing this now in a shell script, triggered during your deploy process,
@@ -84,7 +106,7 @@ Raygun will attempt to download the sourcemap from this url, which negates the w
 purpose of this plugin. And since you are not uploading sourcemaps to a public location,
 Raygun would not be able to download the sourcemaps.
 
-### webpack.config.js
+`webpack.config.js`
 
 ```
 output: {
