@@ -9,8 +9,8 @@
 <a href="https://www.npmjs.com/package/raygun-sourcemap-webpack-plugin">
     <img src="https://img.shields.io/npm/dm/raygun-sourcemap-webpack-plugin.svg?style=flat-square" alt="Downloads" />
 </a>
-<a href="https://github.com/mohsentaleb/raygun-sourcemap-webpack-plugin/blob/HEAD/CONTRIBUTING.md">
-    <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs welcome!" />
+<a href="https://www.paypal.com/paypalme/mohsentaleb">
+    <img src="https://img.shields.io/badge/Donate-PayPal-orange.svg" alt="PRs welcome!" />
 </a>
 
 This is a [Webpack](https://webpack.github.io) plugin that simplifies uploading the sourcemaps,
